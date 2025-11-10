@@ -5,7 +5,7 @@ import dash_bootstrap_components as dbc
 
 
 app = Dash(external_stylesheets=[dbc.themes.LITERA])
-app = app.server
+server = app.server
 app.layout = create_layout()
 
 register_callbacks(app)
